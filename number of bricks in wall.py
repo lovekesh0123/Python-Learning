@@ -1,0 +1,8 @@
+a=int(input('Enter the lenght of brick= '))
+b=int(input('Enter the breight of brick= '))
+f=int(input('Enter the hight of brick= '))
+c=int(input('Enter the lenght of wall= '))
+d=int(input('Enter the breight of wall= '))
+g=int(input('Enter the hight of wall= '))
+e=((c*d*g)/(f*a*b))
+print(f'The no. of bricks in the wall is {e}')
