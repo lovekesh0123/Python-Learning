@@ -1,0 +1,6 @@
+a=int(input('x1 = '))
+b=int(input('y1 = '))
+c=int(input('x2 = '))
+d=int(input('y2 = '))
+e=((((c-a)**2)+((d-b)**2)))**(0.5)
+print(f'the distance between the ({a},{b}) and ({c},{d}) is %.2f'%(d))
